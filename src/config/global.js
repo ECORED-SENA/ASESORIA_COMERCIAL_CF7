@@ -182,47 +182,52 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Albrecht, K. (2006). La revolución del servicio. Temas gerenciales 1ª edición. Editorial 3R Editores.',
+    },
+    {
+      referencia:
+        'Beetrack. (sf). Las características de un buen servicio al cliente. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.beetrack.com/es/blog/como-dar-buen-servicio-al-cliente-sector-logistico',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'Cámara de Comercio de Cartagena. (2014). Procedimiento atención de PQRS. ',
+      link: 'https://www.cccartagena.org.co/pqrs-2/',
+    },
+    {
+      referencia:
+        'Da Silva, D. (2020). Diferencia entre atención al cliente y servicio al cliente. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://www.zendesk.com.mx/blog/diferencia-servicio-atencion-al-cliente/',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Geinfor. (sf). Cómo implementar un sistema de trazabilidad en tu empresa. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://geinfor.com/business/como-implementar-un-sistema-de-trazabilidad-en-tu-empresa/',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'ISOTools. (2016). Cómo definir un proceso para gestionar las reclamaciones de los clientes. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://www.isotools.com.co/definir-proceso-gestionar-las-reclamaciones-los-clientes/',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'Prieto, J. (2014). Gerencia del servicio. 3ª edición. Ecoe Ediciones.',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'Serna, H., Barrios, C., Barrios, A. y Castillo, M. (2007). Cómo medir al cliente. Editorial 3R Editores. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'http://www.panamericanaeditorial.com.co/temas-gerenciales-3r/4464-como-medir-el-valor-del-cliente.html',
+    },
+    {
+      referencia:
+        'Siebold, M. (s.f.). Momentos de verdad en la administración del servicio. ',
+      link:
+        'http://www.mercadeo.com/blog/1967/09/momentos-de-verdad-en-la-administracion-del-servicio/',
     },
   ],
   glosario: [
@@ -245,31 +250,48 @@ export default {
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Da Silva, D. (2020). Diferencia entre atención al cliente y servicio al cliente. ',
+      tipo: 'Otro (página web)',
+      link:
+        'https://www.zendesk.com.mx/blog/diferencia-servicio-atencion-al-cliente/',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'Serna, H., Barrios, C., Barrios, A. y Castillo, M. (2007). Cómo medir al cliente. Editorial 3R Editores.',
+      tipo: 'Libro',
+      link:
+        'http://www.panamericanaeditorial.com.co/temas-gerenciales-3r/4464-como-medir-el-valor-del-cliente.html',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
+        'Beetrack. (sf). Las características de un buen servicio al cliente.',
+      tipo: 'Otro (página web)',
       link: 'https://www.google.com/',
     },
     {
       texto: 'Economía de Rosquilla. (s.f.).',
       tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
+      link:
+        'https://www.beetrack.com/es/blog/como-dar-buen-servicio-al-cliente-sector-logistico',
     },
     {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
+      texto:
+        'Da Silva, D. (2020). Protocolo de atención y servicio al cliente: ¿qué es, por qué es importante para tu empresa?, ¿cómo hacerlo y cuáles son sus ventajas?',
+      tipo: 'Otro (página web)',
+      link: 'https://www.zendesk.com.mx/blog/protocolo-de-atencion-al-cliente/',
+    },
+    {
+      texto:
+        'Geinfor. (sf). Cómo implementar un sistema de trazabilidad en tu empresa.',
+      tipo: 'Otro (página web)',
+      link:
+        'https://geinfor.com/business/como-implementar-un-sistema-de-trazabilidad-en-tu-empresa/',
+    },
+    {
+      texto:
+        'Cano, Y. (s.f). Ceiba. Triángulo del servicio: una mirada estratégica para los negocios.',
+      tipo: 'Otro (página web)',
+      link: 'https://www.ceiba.com.co/triangulo-del-servicio/',
     },
   ],
   creditos: {
