@@ -69,14 +69,14 @@
           .bloque-texto-a__texto.p-4
             p.mb-0 El servicio se ubica en un plano visible e invisible para el cliente, a ambos se le debe dar absoluta prioridad por posicionamiento de la marca y por razones de normatividad legal. El servicio invisible para el cliente es aquel que no está a la vista, pero que es necesario para producir el servicio y entregarlo al servicio visible, por ejemplo, un restaurante para entregar el servicio de comidas necesita la cocina, baños, área de servicios, entre otros, aspectos que no ve el cliente. 
     
-    h4.mb-4 El servicio visible para el cliente es donde se recibe al cliente, el cual consta de:
+    h5.mb-4 El servicio visible para el cliente es donde se recibe al cliente, el cual consta de:
 
     .row.mb-5
       .col-sm-6.col-xl-3.mb-4.mb-xl-0.sz02
         .tarjeta.tarjeta-flip.color-acento-contenido.text-white(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img08.jpg')})`}")
+            .tarjeta-flip__img.bgPCT(:style="{'background-image': `url(${require('@/assets/curso/tema1/img08.jpg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
               h2 Contexto inanimado
               p.mb-0 La oficina de un agente de seguros, escritorios, teléfonos, PC, etc.
@@ -85,7 +85,7 @@
         .tarjeta.tarjeta-flip.color-acento-botones.text-white(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img09.jpg')})`}")
+            .tarjeta-flip__img.bgPCT(:style="{'background-image': `url(${require('@/assets/curso/tema1/img09.jpg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
               h2 Personal de contacto
               p.mb-0 Los empleados que interactúan con el cliente.
@@ -94,7 +94,7 @@
         .tarjeta.tarjeta-flip.color-acento-contenido.text-white(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img10.jpg')})`}")
+            .tarjeta-flip__img.bgPCT(:style="{'background-image': `url(${require('@/assets/curso/tema1/img10.jpg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
               h2 Prestadores de servicios
               p.mb-0  Son quienes prestan el servicio directamente al cliente.
@@ -103,7 +103,7 @@
         .tarjeta.tarjeta-flip.color-acento-botones.text-white(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img11.jpg')})`}")
+            .tarjeta-flip__img.bgPCT(:style="{'background-image': `url(${require('@/assets/curso/tema1/img11.jpg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
               h2 Otros Clientes
               p.mb-0 Los clientes que reciben el mismo servicio y pueden influir de manera positiva o negativa en su uso futuro.
@@ -125,7 +125,7 @@
     #t1_1.titulo-segundo.color-acento-contenido
       h2 1.1 Características de la atención al cliente
 
-    p.mb-4 Para la prestación del servicio que requiere cualquier actividad se debe tener en cuenta unas características, que el vendedor debe recordar. De acuerdo con la página web Beetrack se señala algunas como:
+    p.mb-0 Para la prestación del servicio que requiere cualquier actividad se debe tener en cuenta unas características, que el vendedor debe recordar. De acuerdo con la página web Beetrack se señala algunas como:
   
   .container.p-0
     ImagenInfografica.color-acento-botones
@@ -159,21 +159,29 @@
     h3.mb-4 Caracateríticas prestación del servicio
 
     TabsA.color-acento-contenido
-      .tarjeta.color-primario.BG10.p-4(titulo="Son intangibles")
-        h4 Son intangibles
-        p.mb-0 Los servicios son intangibles, estos no se pueden tocar, oler, no tienen acceso a la propiedad, no se pueden cargar, ni llevar.
+      .tarjeta.px-4(titulo="Son intangibles")
+        .row
+          .col-lg-7.BG10.rounded-3.p-5.mb-4.mb-lg-0
+            h4 Son intangibles
+            p.mb-0 Los servicios son intangibles, estos no se pueden tocar, oler, no tienen acceso a la propiedad, no se pueden cargar, ni llevar.
       
-      .tarjeta.color-primario.BG10.p-4(titulo="Son intangibles")
-        h4 Son indivisibles
-        p.mb-0 Son los servicios que se le prestan a todos por igual, independientemente de lo que haya pagado.
+      .tarjeta.px-4(titulo="Son intangibles")
+        .row
+          .col-lg-7.BG10.rounded-3.p-5.mb-4.mb-lg-0
+            h4 Son indivisibles
+            p.mb-0 Son los servicios que se le prestan a todos por igual, independientemente de lo que haya pagado.
 
-      .tarjeta.color-primario.BG10.p-4(titulo="Son intangibles")
-        h4 Son heterogéneos 
-        p.mb-0 Estos servicios son muy diversos y variados, raramente coinciden entre sí y usualmente se prestan muchas veces con relación al cliente. 
+      .tarjeta.px-4(titulo="Son intangibles")
+        .row
+          .col-lg-7.BG10.rounded-3.p-5.mb-4.mb-lg-0
+            h4 Son heterogéneos 
+            p.mb-0 Estos servicios son muy diversos y variados, raramente coinciden entre sí y usualmente se prestan muchas veces con relación al cliente. 
 
-      .tarjeta.color-primario.BG10.p-4(titulo="Son intangibles")
-        h4 No se pueden conservar
-        p.mb-0 Estos servicios no se pueden almacenar, ni llevarlos por partes, todos deben consumirse.
+      .tarjeta.px-4(titulo="Son intangibles")
+        .row
+          .col-lg-7.BG10.rounded-3.p-5.mb-4.mb-lg-0
+            h4 No se pueden conservar
+            p.mb-0 Estos servicios no se pueden almacenar, ni llevarlos por partes, todos deben consumirse.
     
     .row.justify-content-end.mb-5
       .col-lg-8.col-xl-9
@@ -185,7 +193,7 @@
     
     .cajon.color-primario.mTop01.p-5
       .row.justify-content-evenly.align-items-center
-        .col-10.col-lg-3.mb-4.mb-lg-0
+        .col-4.col-lg-3.mb-4.mb-lg-0
           figure.mnTop01
             img(src='@/assets/curso/tema1/img15.svg', alt='')
         .col-lg-8

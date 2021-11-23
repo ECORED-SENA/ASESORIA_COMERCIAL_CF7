@@ -18,12 +18,12 @@
           .row.align-items-center            
             .col-lg-8.mb-4.mb-lg-0
               p.mb-0 Siempre hay que identificar las necesidades, deseos y expectativas de los clientes.
-            .col-6.col-lg-3
+            .col-3.col-lg-3
               figure
                 img.w-75.mx-auto(src='@/assets/curso/tema2/img08.svg', alt='') 
           
           .row.justify-content-end.align-items-center
-            .col-6.col-lg-3.mb-4.mb-lg-0
+            .col-3.col-lg-3.mb-4.mb-lg-0
               figure
                 img.w-75.mx-auto(src='@/assets/curso/tema2/img09.svg', alt='')
             .col-lg-8
@@ -32,12 +32,12 @@
           .row.align-items-center            
             .col-lg-8.mb-4.mb-lg-0
               p.mb-0 Se debe prestar el servicio de acuerdo con lo diseñado en función de los requerimientos y con los procesos acordados.
-            .col-6.col-lg-3
+            .col-3.col-lg-3
               figure
                 img.w-75.mx-auto(src='@/assets/curso/tema2/img10.svg', alt='') 
           
           .row.justify-content-end.align-items-center
-            .col-6.col-lg-3.mb-4.mb-lg-0
+            .col-3.col-lg-3.mb-4.mb-lg-0
               figure
                 img.w-75.mx-auto(src='@/assets/curso/tema2/img11.svg', alt='')
             .col-lg-8
@@ -46,15 +46,15 @@
   .container.BG10.p-4.p-md-5.roundedEnd
     .row.justify-content-center
       .col-lg-10
-        .row.justify-content-end.align-items-center.p-4.bg-white.rounded.mb-4
-          .col-6.col-lg-2.mb-4.mb-lg-0
+        .row.justify-content-center.align-items-center.p-4.bg-white.rounded.mb-4
+          .col-3.col-lg-2.mb-4.mb-lg-0
             figure
               img.w-75.mx-auto(src='@/assets/curso/tema2/img12.svg', alt='')
           .col-lg-10
             p.mb-0 NTC - ISO 9000-2015 es la norma técnica de gestión de la calidad vigente para el servicio al cliente. Las normas técnicas y de calidad están dirigidas a todas las entidades para mejorar el desempeño y la capacidad de proporcionar productos y servicios que cumplan con las necesidades y las expectativas del cliente.
         
-        .row.justify-content-end.align-items-center.p-4.bg-white.rounded
-          .col-6.col-lg-2.mb-4.mb-lg-0
+        .row.justify-content-center.align-items-center.p-4.bg-white.rounded
+          .col-3.col-lg-2.mb-4.mb-lg-0
             figure
               img.w-75.mx-auto(src='@/assets/curso/tema2/img13.svg', alt='')
           .col-lg-10

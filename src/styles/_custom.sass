@@ -28,7 +28,7 @@
 .BG04
   background-color: lighten($color-acento-botones, 20%) !important
 
-.BG10, .bloque-texto-a.color-primario, .cajon.color-primario
+.BG10, .bloque-texto-a.color-primario, .cajon.color-primario, .tabs-c__content-item
   background-color: lighten($color-primario, 30%) !important
 .BG20
   background-color: lighten($color-secundario, 31%) !important
@@ -92,11 +92,17 @@
 .rounded03
   border-radius: 0px 0px 80px 0px !important
 
+.rounded04
+  border-radius: 18px !important
+
 .sz01
   max-width: 60px !important
 
 .sz02
-  min-height: 359px !important
+  min-height: 359px
+
+  @media screen and (max-width: 991px)
+    min-height: 200px
 
 .sz03
   max-width: 120px !important
@@ -109,11 +115,9 @@
   left: 0 !important
   right: 60% !important
 
-.tabs-a__content-item
-  width: 50%
-
   @media screen and (max-width: 991px)
     width: 100%
+    margin-bottom: 16px
 
 .mnTop01
   margin-top: -100px
@@ -127,7 +131,12 @@
 .Clist01
   li
     i
-      color: $color-primario !important
+      color: $color-secundario !important
+
+.Clist02
+  li
+    i
+      color: $color-acento-contenido !important
 
 .lista-ul li ul .lista-ul__vineta::before
   content: '• '
@@ -146,3 +155,36 @@
 
 .pasos-a.color-acento-contenido .pasos-a__circle div
   color: white
+
+.TextC01, .tabs-c__tab
+  color: $color-secundario !important
+
+.tabs-c__tab
+  font-size: 80pt
+  font-weight: bolder
+
+.tabs-c__content-item
+  padding: 30px
+  border-radius: 18px
+
+.tabs-c
+  border: none
+
+.bgImg07
+  background-image: url("../assets/curso/tema4/bg01.svg")
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: center
+  background-color: #FFFAE2
+
+.slyder-a__tipo-a .slyder-a__bullets
+  bottom: 25px !important
+
+.bgPCT
+  background-position: center top !important
+
+.brdC01
+  border: 2px solid $color-acento-botones
+
+.horizontal-scroll
+  align-items: start !important
