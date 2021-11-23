@@ -29,7 +29,8 @@
         figure
           img(src='@/assets/curso/tema7/img01.svg', alt='')
     
-    h4.mb-4 Estrategia de servicio al cliente
+    #t7_2.titulo-segundo.color-acento-contenido
+      h2 7.2 Estructura del triángulo del servicio
 
     .row.justify-content-between.align-items-center
       .col-lg-6.mb-4.mb-lg-0
