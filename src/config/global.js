@@ -65,7 +65,7 @@ export default {
         nombreRuta: 'tema5',
         icono: 'far fa-file-alt',
         numero: '5',
-        titulo: 'Hallazgos',
+        titulo: 'Hallazgos en la atención al cliente',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -126,7 +126,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '8.2',
-            titulo: 'Característica del triángulo del servicio',
+            titulo: 'Elementos que favorecen un momento de verdad',
             hash: 't8_2',
           },
           {
@@ -266,7 +266,7 @@ export default {
       texto:
         'Beetrack. (sf). Las características de un buen servicio al cliente.',
       tipo: 'Otro (página web)',
-      link: 'https://www.google.com/',
+      link: 'https://www.zendesk.com.mx/blog/protocolo-de-atencion-al-cliente/',
     },
     {
       texto: 'Economía de Rosquilla. (s.f.).',
@@ -278,7 +278,8 @@ export default {
       texto:
         'Da Silva, D. (2020). Protocolo de atención y servicio al cliente: ¿qué es, por qué es importante para tu empresa?, ¿cómo hacerlo y cuáles son sus ventajas?',
       tipo: 'Otro (página web)',
-      link: 'https://www.zendesk.com.mx/blog/protocolo-de-atencion-al-cliente/',
+      link:
+        'https://www.zendesk.com.mx/blog/diferencia-servicio-atencion-al-cliente/',
     },
     {
       texto:
@@ -307,7 +308,28 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Javier del Carmen Martínez Pérez',
+        cargo: 'Instructor',
+        centro: 'Centro de Comercio y Servicios - Regional Bolívar',
+      },
+      {
+        nombre: 'Zenith Chinchilla Ruedas',
+        cargo: 'Diseñador Instruccional',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Silvia Milena Sequeda Cárdenas',
+        cargo: 'Evaluadora instruccional',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Julia Isabel Roberto',
+        cargo: 'Diseñadora y evaluadora instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -315,7 +337,7 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
@@ -323,28 +345,63 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Carlo Julián Ramírez Benítez',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
+        nombre: 'Luis Gabriel Urueta Alvarez',
+        cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Caceres',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Gilberto Junior Rodriguez Rodriguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'María Carolina Tamayo López',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Camilo Villamizar Lizcano',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Diego Fernando Velasco Güiza',
+        cargo: 'Desarrollo Front-End',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Andres Mauricio Santaella Ochoa',
+        cargo: 'Soporte front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'María Isabel Román Rueda',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [

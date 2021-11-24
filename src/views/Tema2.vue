@@ -14,7 +14,7 @@
         .cajon-b.color-acento-contenido.p-3
           p Por parte de la empresa para construir relaciones con los clientes se debe montar una estrategia conducente a que los proveedores, los clientes, distribuidores, comerciantes y públicos interesados mantengan intercambios de interés, precios y de calidad a lo largo del tiempo en la cadena de valor.
         .cajon-b.color-primario.p-3
-          p.mb-0 Por parte del vendedor, él debe estar en sintonía con los requerimientos de la empresa, ocupándose de resolver los problemas y las situaciones que se le presenten al cliente, puesto que esto representa valor económico y crecimiento personal para el vendedor.
+          p Por parte del vendedor, él debe estar en sintonía con los requerimientos de la empresa, ocupándose de resolver los problemas y las situaciones que se le presenten al cliente, puesto que esto representa valor económico y crecimiento personal para el vendedor.
       .col-8.col-lg-4
         figure
           img(src='@/assets/curso/tema2/img01.svg', alt='')
@@ -25,7 +25,7 @@
           figure.mnTop01
             img(src='@/assets/curso/tema2/img02.svg', alt='')
         .col-lg-8
-          p.mb-0 La atención y el servicio al cliente además de ofrecer experiencias significativas a los clientes, tienen entre sus fines el fortalecimiento de la marca, el posicionamiento, y captar, retener y fidelizar clientes.
+          p.mb-0 En la actualidad existen herramientas que contribuyen al mejoramiento de las relaciones con el cliente, lo que se denomina gestión de las relaciones, esta estrategia combina la tecnología de la información con la cultura organizacional, en la cual el principal objetivo es mantener excelentes relaciones y satisfacer las necesidades de los clientes.
     
     h3 Protocolo de atención en la relación con el cliente
 
@@ -63,14 +63,14 @@
       h4.mb-4 Para la construcción del manual de servicio al cliente se debe tener en cuenta los siguientes elementos:
       
       ul.lista-ul.mb-0.Clist01
-        li 
+        li.mb-2
           i.fas.fa-check
-          p Para cada cargo detallar sus funciones, responsabilidades y su línea de comunicación.
+          p.mb-0 Para cada cargo detallar sus funciones, responsabilidades y su línea de comunicación.
         li
           i.fas.fa-check
-          p Contener las instrucciones según las etapas del encuentro con el cliente.
+          p.mb-0 Contener las instrucciones según las etapas del encuentro con el cliente.
         li.mb-0
-          ul.mb-0
+          ul.mb-0.pdnLeft01
             li
               i.lista-ul__vineta
               p.mb-0 #[strong Inicio.] ingreso del cliente al negocio, con qué saludo se recibirá, describir el mismo saludo para todos con respeto y de manera sonriente. Buenos días (tarde o noche) señor(a), mi nombre es…, bienvenido(a), (nombre de la empresa).
@@ -115,7 +115,7 @@
             figure
               img(src='@/assets/curso/tema2/img07.svg', alt='')
           .col-10.col-lg-8.bg-white.rounded.p-3
-            p.mb-0 Dar despedida en forma cortés, agradecer la compra. e invitarlo a regresar.
+            p.mb-0 Dar despedida en forma cortés, agradecer la compra e invitarlo a regresar.
 
       .col-md.col-lg-5.bgImg06
   

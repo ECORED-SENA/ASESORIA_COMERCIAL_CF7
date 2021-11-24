@@ -10,7 +10,7 @@
     
     p.mb-4 Es una herramienta secuencial de pasos lógicos en la que existen interacciones que muestran el inicio del proceso de atención al cliente, puntos de contacto denominados momentos de verdad y el final del ciclo. Su objetivo se enfoca en el mejoramiento continuo para satisfacer las expectativas del cliente frente al producto o servicio. Este es un mapa de los momentos de verdad, desde el principio hasta que el cliente abandona el establecimiento.
 
-    p.mb-4 En la siguiente figura se muestra el ciclo del servicio.
+    h5.mb-4 En la siguiente figura se muestra el ciclo del servicio.
 
     .titulo-sexto.color-acento-contenido
       h5 Figura 2.
@@ -27,17 +27,17 @@
     .cajon.color-primario.p-5.mb-5   
       .row.align-items-center.justify-content-center 
         .col-lg-8.mb-4.mb-lg-0
-          h5 Los ciclos de servicio permiten a la empresa:
+          h5.mb-4 Los ciclos de servicio permiten a la empresa:
           ul.lista-ul.mb-0.Clist01
             li 
               i.fas.fa-check
-              p Técnica para ayudar a la gente a cambiar sus hábitos.
+              p.mb-0 Técnica para ayudar a la gente a cambiar sus hábitos.
             li 
               i.fas.fa-check
-              p Que el empleado piense en el producto que él ofrece al cliente.
+              p.mb-0 Que el empleado piense en el producto que él ofrece al cliente.
             li 
               i.fas.fa-check
-              p Entender la realidad de la experiencia del servicio al cliente.
+              p.mb-0 Entender la realidad de la experiencia del servicio al cliente.
             li.mb-0
               i.fas.fa-check
               p.mb-0 Muestra el servicio como el cliente lo experimenta.
@@ -105,7 +105,7 @@
             figure
               img.w-50.mx-auto(src='@/assets/curso/tema6/img05.svg', alt='')
         
-        .row(titulo="Características del ciclo del servicio")
+        .row(titulo="Etapas del ciclo del servicio")
           .col-md-8.mb-4.mb-md-0
             p Están relacionadas con  la manera  cómo el cliente toma su decisión de compra para satisfacer su necesidad. De tal forma que cuando el cliente define el sitio donde va a visitar cada paso que toma va conformando su ciclo de servicio.
             p.mb-0 A continuación, se presenta como ejemplo el ciclo del servicio de un centro médico (Albrecht, 2006, p.41).
@@ -181,7 +181,7 @@
                 i.fas.fa-check
                 p.mb-0 Llamar al centro médico para algún tratamiento posterior si es necesario.
 
-        .row(titulo="Características del ciclo del servicio")
+        .row(titulo="Medición del servicio")
           .col-md-8.mb-4.mb-md-0
             p Se entiende los indicadores o métricas de satisfacción del cliente como aquellos datos que permiten medir el estado del cliente con relación al servicio o producto ofrecido. Serna (2007) señala indicadores de medición del servicio. (Ver anexo).
             p.mb-0 ¿Cómo medir la calidad en el servicio?
@@ -217,13 +217,6 @@
               li 
                 i.fas.fa-check
                 p.mb-0 Servicio asociado a lo pactado.
-
-
-
-
-
-
-
   
 </template>
 

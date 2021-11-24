@@ -6,7 +6,7 @@
     .titulo-principal.color-acento-botones(data-aos="flip-up")
       .titulo-principal__numero
         span 5
-      h1 Hallazgos
+      h1 Hallazgos en la atención al cliente
     
     p.mb-4 En la prestación del servicio por parte de la empresa y en la atención al cliente por parte de los empleados a parte de recibir al cliente y causarle una experiencia satisfactoria que haga que regrese, está conocer en qué momento de esos encuentros el cliente siente insatisfacción hacia el establecimiento, marca u otra causa que lo coloque en posición de perderlo. Tenga en cuenta que la prestación del servicio puede estar acompañada de la calidad del producto, de la capacitación de los empleados, de la empresa enfocada en el servicio, por ello, los clientes siempre están dispuestos a expresar su inconformidad.
 
@@ -71,15 +71,15 @@
       .row.align-items-center.justify-content-center 
         .col-lg-7.mb-4.mb-lg-0
           ul.lista-ul.mb-0.Clist01
-            li 
-              i.fas.fa-check
-              p Capacitación a los empleados sobre cómo prestar el servicio.
             li
               i.fas.fa-check
-              p Claridad en los procesos del ciclo de servicio.
+              p.mb-0 Capacitación a los empleados sobre cómo prestar el servicio.
             li
               i.fas.fa-check
-              p Productos de reconocida calidad.
+              p.mb-0 Claridad en los procesos del ciclo de servicio.
+            li
+              i.fas.fa-check
+              p.mb-0 Productos de reconocida calidad.
             li.mb-0
               i.fas.fa-check
               p.mb-0 Cumplimiento de la promesa de venta.
@@ -88,9 +88,9 @@
           figure
             img(src='@/assets/curso/tema4/img06.svg', alt='')
   
-    p.mb-4 Es recomendable seguir los requisitos de la Norma ISO 9000 en lo referente al proceso para gestionar las reclamaciones de los clientes, enfocado en la atención a facilitar la satisfacción de los clientes y la mejora continua de la misma. Entre esas acciones la empresa debe contar con un proceso de gestión de reclamaciones (PQR) que procure la retención y la conversión de los clientes.
+    p.mb-5 Es recomendable seguir los requisitos de la Norma ISO 9000 en lo referente al proceso para gestionar las reclamaciones de los clientes, enfocado en la atención a facilitar la satisfacción de los clientes y la mejora continua de la misma. Entre esas acciones la empresa debe contar con un proceso de gestión de reclamaciones (PQR) que procure la retención y la conversión de los clientes.
 
-    p.mb-4 De acuerdo con IsoTools (2016) este proceso sería:
+    h5.mb-0 De acuerdo con IsoTools (2016) este proceso sería:
   
   .container.bg-white.p-0 
     .row.align-items-center.justify-content-center.bgImg07.p-4.rounded01

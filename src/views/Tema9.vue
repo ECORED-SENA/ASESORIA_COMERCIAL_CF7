@@ -10,7 +10,7 @@
     
     p.mb-4 La trazabilidad es una serie de normas, procedimientos que permiten realizar un seguimiento al producto durante su proceso de fabricación, despacho y entrega al cliente, esta trazabilidad se realiza con el apoyo de tecnologías de georreferenciación aplicadas al producto.  
 
-    p.mb-0 La trazabilidad del servicio es el seguimiento o sondeo que se hace del producto o servicio según los procedimientos establecidos, con el fin de conocer la ubicación y trayectoria del producto o servicio a lo largo de la cadena logística, para lo cual se utilizan algunas herramientas, la trazabilidad es la capacidad de reconstruir la historia y recorrido de un producto o servicio. Para ello, se debe tener en cuenta lo siguiente:
+    p.mb-0 La trazabilidad del servicio es el seguimiento o sondeo que se hace del producto o servicio según los procedimientos establecidos, con el fin de conocer la ubicación y trayectoria del producto o servicio a lo largo de la cadena logística, para lo cual se utilizan algunas herramientas, la trazabilidad es la capacidad de reconstruir la historia y recorrido de un producto o servicio. #[strong Para ello, se debe tener en cuenta lo siguiente:]
   
   .container.bg-white.p-0
     figure
@@ -44,8 +44,8 @@
       
       .row.align-items-end.justify-content-between
         .col-md-6.mb-4.mb-md-0
-          h4 Software para captura de datos
-          p Sin negar la importancia de los dos sistemas anteriormente analizados, de poco servirían todos los datos obtenidos si después no se cuenta con las herramientas para analizarlos y darles un uso adecuado. Por esto, es esencial la utilización de un software especializado que permita la gestión correcta de toda la información acumulada y su posterior administración.   
+          h4 #[em Software] para captura de datos
+          p Sin negar la importancia de los dos sistemas anteriormente analizados, de poco servirían todos los datos obtenidos si después no se cuenta con las herramientas para analizarlos y darles un uso adecuado. Por esto, es esencial la utilización de un #[em software] especializado que permita la gestión correcta de toda la información acumulada y su posterior administración.   
         .col-md-5
           figure
             img(src='@/assets/curso/tema9/img04.jpg', alt='')
@@ -76,27 +76,27 @@
   .container.BGgris01.p-4.p-md-5
     h3 Canales
 
-    p.mb-4 Existen diversos canales de atención al cliente y la utilización de estos depende de las políticas de la empresa y el público al cual se desea atender, entre ellos figuran:
+    p.mb-5 Existen diversos canales de atención al cliente y la utilización de estos depende de las políticas de la empresa y el público al cual se desea atender, entre ellos figuran:
 
-    .row.align-items-center
-      .col-md-6.mb-4.mb-md-0
+    .row.align-items-center.mb-5
+      .col-md-6.mb-4-mb-md-0
         ul.lista-ul.mb-0.Clist02
-          li 
+          li.mb-1
             i.fas.fa-check
             p.mb-0 El teléfono y/o móvil.
-          li 
+          li.mb-1
             i.fas.fa-check
             p.mb-0 Correo electrónico.
-          li 
+          li.mb-1
             i.fas.fa-check
-            p.mb-0 Páginas web.
-          li 
+            p.mb-0 Páginas #[em web].
+          li.mb-1
             i.fas.fa-check
             p.mb-0 Mensajes SMS.
-          li 
+          li.mb-1
             i.fas.fa-check
             p.mb-0 WhatsApp.
-          li 
+          li.mb-0
             i.fas.fa-check
             p.mb-0 Redes sociales: Facebook, Twitter, Instagram, entre otras.
 

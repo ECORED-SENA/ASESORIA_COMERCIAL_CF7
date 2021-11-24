@@ -21,7 +21,7 @@
           | Son estos momentos los que la empresa tiene en cuenta para lograr la experiencia de servicio y esa estructura está diseñada para tal fin.
         
         p.mb-0 
-          | Otras características son los requerimientos, procesos y procedimiento de cada 
+          | Otras características son los requerimientos, procesos y procedimientos de cada 
           span.etiqueta momento de verdad,
           | planear cada uno de esos encuentros con el objeto de que salga bien cada encuentro.
 
@@ -31,6 +31,8 @@
     
     #t7_2.titulo-segundo.color-acento-contenido
       h2 7.2 Estructura del triángulo del servicio
+
+    p.mb-4 Estos tres elementos componen la estructura del triángulo del servicio e interactúan con el cliente para mantener un nivel de percepción alto en el cliente.
 
     .row.justify-content-between.align-items-center
       .col-lg-6.mb-4.mb-lg-0

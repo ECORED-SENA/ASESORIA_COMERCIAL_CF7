@@ -18,28 +18,28 @@
   .container.bg-white.p-0
     SlyderA.row.align-items-end.gx-0.mb-5
       .col-12
-        .row.justify-content-around.bgImg08.rounded01.m-0.p-5
+        .row.justify-content-around.bgImg08.rounded01.m-0.p-5.minH01
           .col-md-10.col-lg-5.BG29.text-white.rounded02.p-5
             p.my-5.mTop01 Sistema de gestión gerencial: de ahí salen las decisiones que dan forma a los momentos de verdad y la conformación de los ciclos de servicios.
             figure.my-3.mTop01
               img.sz01(src='@/assets/curso/tema1/img05.svg', alt='')
           .col-5
       .col-12
-        .row.justify-content-around.bgImg09.rounded01.m-0.p-5
+        .row.justify-content-around.bgImg09.rounded01.m-0.p-5.minH01
           .col-md-10.col-lg-5.BG29.text-white.rounded02.p-5
             p.my-5.mTop01 Sistema conformado por las normas y procedimientos: son las reglas para seguir en el encuentro con el cliente.
             figure.my-3.mTop01
               img.sz01(src='@/assets/curso/tema1/img05.svg', alt='')
           .col-5
       .col-12
-        .row.justify-content-around.bgImg10.rounded01.m-0.p-5
+        .row.justify-content-around.bgImg10.rounded01.m-0.p-5.minH01
           .col-md-10.col-lg-5.BG29.text-white.rounded02.p-5
             p.my-5.mTop01 Sistema de infraestructura técnica: los equipos que la empresa necesita para poder operar en la atención con el cliente.
             figure.my-3.mTop01
               img.sz01(src='@/assets/curso/tema1/img05.svg', alt='')
           .col-5
       .col-12
-        .row.justify-content-around.bgImg11.rounded01.m-0.p-5
+        .row.justify-content-around.bgImg11.rounded01.m-0.p-5.minH01
           .col-md-10.col-lg-5.BG29.text-white.rounded02.p-5
             p.my-5.mTop01 Sistema de interacción social: todo el componente humano alrededor del encuentro con el cliente.
             figure.my-3.mTop01
@@ -69,36 +69,40 @@
           button.ColHid.BG01Hov.col-md-6.col-lg-3(data-bs-toggle='collapse' data-bs-target='.multi-collapse1' aria-expanded='true' aria-controls='.multi-collapse1')
             figure.mb-3
               img.w-50.mx-auto(src='@/assets/curso/tema8/img06.svg', alt='')
-            .BG01HovChg.rounded011.p-4
+            .BG01HovChg.rounded0111.py-4
               h4.text-center.mb-0 Soporte interno
           button.ColHid.BG01Hov.col-md-6.col-lg-3(data-bs-toggle='collapse' data-bs-target='.multi-collapse2' aria-expanded='true' aria-controls='.multi-collapse2')
             figure.mb-3
               img.w-50.mx-auto(src='@/assets/curso/tema8/img07.svg', alt='')
-            .BG01HovChg.rounded011.p-4.position-relative
+            .BG01HovChg.rounded0111.py-4.position-relative
               .indicador--click(v-if="mostrarIndicador")
               h4.text-center.mb-0 Soporte físico
           button.ColHid.BG01Hov.col-md-6.col-lg-3(data-bs-toggle='collapse' data-bs-target='.multi-collapse3' aria-expanded='true' aria-controls='.multi-collapse3')
             figure.mb-3
               img.w-50.mx-auto(src='@/assets/curso/tema8/img08.svg', alt='')
-            .BG01HovChg.rounded011.p-4
+            .BG01HovChg.rounded0111.py-4
               h4.text-center.mb-0 Personal en contacto
           button.ColHid.BG01Hov.col-md-6.col-lg-3(data-bs-toggle='collapse' data-bs-target='.multi-collapse4' aria-expanded='true' aria-controls='.multi-collapse4')
             figure.mb-3
               img.w-50.mx-auto(src='@/assets/curso/tema8/img09.svg', alt='')
-            .BG01HovChg.rounded011.p-4
+            .BG01HovChg.rounded0111.py-4
               h4.text-center.mb-0 Cliente y servicio
         
-        .BG01.rounded04.p-3.mb-2.multi-collapse1.collapse.show(data-bs-parent='#MapaGroup01')
-          p.mb-0 El soporte interno lo conforma esa parte interna que no es visible al servicio, pero desde ahí se produce.
+        .BG01.rounded04.multi-collapse1.collapse.show(data-bs-parent='#MapaGroup01')
+          .p-3
+            p.mb-0 El soporte interno lo conforma esa parte interna que no es visible al servicio, pero desde ahí se produce.
         
-        .BG01.rounded04.p-3.mb-2.multi-collapse2.collapse(data-bs-parent='#MapaGroup01')
-          p.mb-0 El soporte físico está conformado por los equipos físicos que son necesarios para prestar el servicio.
+        .BG01.rounded04.multi-collapse2.collapse(data-bs-parent='#MapaGroup01')
+          .p-3
+            p.mb-0 El soporte físico está conformado por los equipos físicos que son necesarios para prestar el servicio.
         
-        .BG01.rounded04.p-3.mb-2.multi-collapse3.collapse(data-bs-parent='#MapaGroup01')
-          p.mb-0 El personal de contacto es quien sirve a los clientes sobre las necesidades del servicio.
+        .BG01.rounded04.multi-collapse3.collapse(data-bs-parent='#MapaGroup01')
+          .p-3
+            p.mb-0 El personal de contacto es quien sirve a los clientes sobre las necesidades del servicio.
         
-        .BG01.rounded04.p-3.mb-2.multi-collapse4.collapse(data-bs-parent='#MapaGroup01')
-          p.mb-0 El cliente y el servicio lo conforman todos los procesos necesarios para satisfacer al cliente y la capacidad para realizar mejoras en el servicio.
+        .BG01.rounded04.multi-collapse4.collapse(data-bs-parent='#MapaGroup01')
+          .p-3
+            p.mb-0 El cliente y el servicio lo conforman todos los procesos necesarios para satisfacer al cliente y la capacidad para realizar mejoras en el servicio.
     
     #t8_3.titulo-segundo.color-acento-contenido
       h2 8.3 Tipos de momentos de verdad
@@ -119,7 +123,7 @@
             figure
               img.w-75.mx-auto(src='@/assets/curso/tema8/img11.svg', alt='')
           .col-10
-            p.mb-0 #[strongMomentos de verdad negativos:] aquellos momentos que no satisfacen las expectativas de los clientes en su encuentro con el sistema. Los empleados pueden atenderlos muy bien, pero pueden sentirse contrariados con alguna parte del servicio técnico o con la exhibición u otro elemento. 
+            p.mb-0 #[strong Momentos de verdad negativos:] aquellos momentos que no satisfacen las expectativas de los clientes en su encuentro con el sistema. Los empleados pueden atenderlos muy bien, pero pueden sentirse contrariados con alguna parte del servicio técnico o con la exhibición u otro elemento. 
   
 </template>
 

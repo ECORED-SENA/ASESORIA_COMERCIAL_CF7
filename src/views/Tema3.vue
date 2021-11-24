@@ -17,7 +17,7 @@
         PasosA.color-acento-contenido.mb-5(tipo="l")
           .row.align-items-center            
             .col-lg-8.mb-4.mb-lg-0
-              p.mb-0 Siempre hay que identificar las necesidades, deseos y expectativas de los clientes.
+              h5.mb-0 Siempre hay que identificar las necesidades, deseos y expectativas de los clientes.
             .col-3.col-lg-3
               figure
                 img.w-75.mx-auto(src='@/assets/curso/tema2/img08.svg', alt='') 
@@ -27,11 +27,11 @@
               figure
                 img.w-75.mx-auto(src='@/assets/curso/tema2/img09.svg', alt='')
             .col-lg-8
-              p.mb-0 Planificar el servicio en función de las necesidades, manifestando y exponiendo al cliente las posibilidades existentes que tiene la organización comercial para cubrir sus necesidades y expectativas, cumpliendo con los requerimientos exigidos.
+              h5.mb-0 Planificar el servicio en función de las necesidades, manifestando y exponiendo al cliente las posibilidades existentes que tiene la organización comercial para cubrir sus necesidades y expectativas, cumpliendo con los requerimientos exigidos.
           
           .row.align-items-center            
             .col-lg-8.mb-4.mb-lg-0
-              p.mb-0 Se debe prestar el servicio de acuerdo con lo diseñado en función de los requerimientos y con los procesos acordados.
+              h5.mb-0 Se debe prestar el servicio de acuerdo con lo diseñado en función de los requerimientos y con los procesos acordados.
             .col-3.col-lg-3
               figure
                 img.w-75.mx-auto(src='@/assets/curso/tema2/img10.svg', alt='') 
@@ -41,7 +41,7 @@
               figure
                 img.w-75.mx-auto(src='@/assets/curso/tema2/img11.svg', alt='')
             .col-lg-8
-              p.mb-0 Se debe evaluar la prestación del servicio, teniendo en cuenta las medidas internas y externas a través de indicadores y parámetros del servicio de calidad.
+              h5.mb-0 Se debe evaluar la prestación del servicio, teniendo en cuenta las medidas internas y externas a través de indicadores y parámetros del servicio de calidad.
     
   .container.BG10.p-4.p-md-5.roundedEnd
     .row.justify-content-center

@@ -46,23 +46,23 @@
       .tarjeta.color-acento-botones.bg-white.p-3(x="47.1%" y="55%" numero="6")
         p.mb-0 Acciones que propicien relaciones duraderas con los clientes.
       
-      .tarjeta.color-acento-botones.bg-white.p-3(x="52.9%" y="55%" numero="7")
+      .tarjeta.color-acento-botones.bg-white.p-3(x="53%" y="55%" numero="7")
         p.mb-0 Cupones descuento, donde el usuario puede recortar un cupón y obtendrá una rebaja en el precio de algún producto o servicio del establecimiento.
 
       .tarjeta.color-acento-botones.bg-white.p-3(x="58.9%" y="55%" numero="8")
-        p.mb-0 Programa de puntos: tarjeta de puntos redimibles en productos.
+        p.mb-0 #[strong Programa de puntos.] Tarjeta de puntos redimibles en productos.
       
       .tarjeta.color-acento-botones.bg-white.p-3(x="64.9%" y="55%" numero="9")
-        p.mb-0 #[strong #[em Newsletter.]] comunicación personalizada a sus correos electrónicos.
+        p.mb-0 #[strong #[em Newsletter.]] Comunicación personalizada a sus correos electrónicos.
 
       .tarjeta.color-acento-botones.bg-white.p-3(x="70.6%" y="55%" numero="10")
-        p.mb-0 Regalos. Por cumplir cuotas de compra en un periodo de tiempo.
+        p.mb-0 #[strong Regalos.] Por cumplir cuotas de compra en un periodo de tiempo.
       
       .tarjeta.color-acento-botones.bg-white.p-3(x="76.6%" y="55%" numero="11")
-        p.mb-0 Gestión de la relación con el cliente. Invitar al cliente a participar en alguna actividad o promociones, por ejemplo el madrugón de precios.
+        p.mb-0 #[strong Gestión de la relación con el cliente.] Invitar al cliente a participar en alguna actividad o promociones, por ejemplo el madrugón de precios.
 
       .tarjeta.color-acento-botones.bg-white.p-3(x="82.5%" y="55%" numero="12")
-        p.mb-0 Club de clientes. Grupos que la empresa organiza, por ejemplo, el club de la pintura reúne a todos los interesados en pintar, reciben cursos y promociones.
+        p.mb-0 #[strong Club de clientes.] Grupos que la empresa organiza, por ejemplo, el club de la pintura reúne a todos los interesados en pintar, reciben cursos y promociones.
   
 </template>
 

@@ -13,7 +13,7 @@
   .container.tarjeta.tarjeta--blanca.p-0
     SlyderA.row.align-items-end.gx-0.mb-5
       .col-12
-        .row.justify-content-around.bgImg01.rounded01.m-0.p-5
+        .row.justify-content-around.bgImg01.rounded01.m-0.p-5.minH01
           .col-md-10.col-lg-5.BG29.text-white.rounded02.p-5
             figure.mb-4
               img.sz01(src='@/assets/curso/tema1/img01.svg', alt='')
@@ -23,7 +23,7 @@
           .col-5
       
       .col-12
-        .row.justify-content-around.bgImg02.rounded01.m-0.p-5
+        .row.justify-content-around.bgImg02.rounded01.m-0.p-5.minH01
           .col-md-10.col-lg-5.BG29.text-white.rounded02.p-5
             figure.mb-4
               img.sz01(src='@/assets/curso/tema1/img02.svg', alt='')
@@ -33,7 +33,7 @@
           .col-5
       
       .col-12
-        .row.justify-content-around.bgImg03.rounded01.m-0.p-5
+        .row.justify-content-around.bgImg03.rounded01.m-0.p-5.minH01
           .col-md-10.col-lg-5.BG29.text-white.rounded02.p-5
             figure.mb-4
               img.sz01(src='@/assets/curso/tema1/img03.svg', alt='')
@@ -43,7 +43,7 @@
           .col-5
       
       .col-12
-        .row.justify-content-around.bgImg04.rounded01.m-0.p-5
+        .row.justify-content-around.bgImg04.rounded01.m-0.p-5.minH01
           .col-md-10.col-lg-5.BG29.text-white.rounded02.p-5
             figure.mb-4
               img.sz01(src='@/assets/curso/tema1/img04.svg', alt='')
@@ -125,7 +125,7 @@
     #t1_1.titulo-segundo.color-acento-contenido
       h2 1.1 Características de la atención al cliente
 
-    p.mb-0 Para la prestación del servicio que requiere cualquier actividad se debe tener en cuenta unas características, que el vendedor debe recordar. De acuerdo con la página web Beetrack se señala algunas como:
+    p.mb-0 Para la prestación del servicio que requiere cualquier actividad se debe tener en cuenta unas características, que el vendedor debe recordar. De acuerdo con la página #[em web] Beetrack se señala algunas como:
   
   .container.p-0
     ImagenInfografica.color-acento-botones
@@ -141,16 +141,16 @@
         p.mb-0 El solo deseo de atender bien a la persona no es suficiente, la empresa debe contar de manera organizada para hacer efectiva las PQR que realicen los clientes.
       
       .tarjeta.color-acento-botones.bg-white.p-3(x="39.7%" y="71%" numero="3")
-        p.mb-0 El vendedor debe ser proactivo, adelantarse a situaciones para dar solución antes que el cliente lo detecte., por ejemplo, si un producto que se vendió tiene fallas, recogerlo cuanto antes.
+        p.mb-0 El trato personalizado de frente al cliente y enfocado en sus necesidades deja gratas experiencias, también puede realizarse utilizando la omnicanalidad dando respuestas inmediatas.
 
       .tarjeta.color-acento-botones.bg-white.p-3(x="53.2%" y="71%" numero="4")
-        p.mb-0 El servicio ayuda a la empresa y el vendedor a tener una relación duradera y rentable.
+        p.mb-0 El vendedor debe ser proactivo, adelantarse a situaciones para dar solución antes que el cliente lo detecte., por ejemplo, si un producto que se vendió tiene fallas, recogerlo cuanto antes.
       
       .tarjeta.color-acento-botones.bg-white.p-3(x="69.2%" y="71%" numero="5")
-        p.mb-0 El trato personalizado de frente al cliente y enfocado en sus necesidades deja gratas experiencias, también puede realizarse utilizando la omnicanalidad dando respuestas inmediatas
+        p.mb-0 Problema resuelto a satisfacción, es cliente que vuelve a comprar.
 
       .tarjeta.color-acento-botones.bg-white.p-3(x="86.5%" y="71%" numero="6")
-        p.mb-0 Problema resuelto a satisfacción, es cliente que vuelve a comprar.
+        p.mb-0 El servicio ayuda a la empresa y el vendedor a tener una relación duradera y rentable.
   
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.roundedEnd
 
@@ -158,38 +158,45 @@
 
     h3.mb-4 Caracateríticas prestación del servicio
 
-    TabsA.color-acento-contenido
+    TabsA.color-acento-contenido.mb-5
       .tarjeta.px-4(titulo="Son intangibles")
         .row
-          .col-lg-7.BG10.rounded-3.p-5.mb-4.mb-lg-0
+          .col-lg-7.BG10.rounded-3.p-5.mb-2
             h4 Son intangibles
             p.mb-0 Los servicios son intangibles, estos no se pueden tocar, oler, no tienen acceso a la propiedad, no se pueden cargar, ni llevar.
+          .col-12.p-0
+            figure
+              img(src='@/assets/curso/tema1/img14.svg', alt='')
       
-      .tarjeta.px-4(titulo="Son intangibles")
+      .tarjeta.px-4(titulo="Son indivisibles")
         .row
-          .col-lg-7.BG10.rounded-3.p-5.mb-4.mb-lg-0
+          .col-lg-7.BG10.rounded-3.p-5.mb-2
             h4 Son indivisibles
             p.mb-0 Son los servicios que se le prestan a todos por igual, independientemente de lo que haya pagado.
+          .col-12.p-0
+            figure
+              img(src='@/assets/curso/tema1/img14.svg', alt='')
 
-      .tarjeta.px-4(titulo="Son intangibles")
+      .tarjeta.px-4(titulo="Son heterogéneos")
         .row
-          .col-lg-7.BG10.rounded-3.p-5.mb-4.mb-lg-0
+          .col-lg-7.BG10.rounded-3.p-5.mb-2
             h4 Son heterogéneos 
             p.mb-0 Estos servicios son muy diversos y variados, raramente coinciden entre sí y usualmente se prestan muchas veces con relación al cliente. 
+          .col-12.p-0
+            figure
+              img(src='@/assets/curso/tema1/img14.svg', alt='')
 
-      .tarjeta.px-4(titulo="Son intangibles")
+      .tarjeta.px-4(titulo="No se pueden conservar")
         .row
-          .col-lg-7.BG10.rounded-3.p-5.mb-4.mb-lg-0
+          .col-lg-7.BG10.rounded-3.p-5.mb-2
             h4 No se pueden conservar
             p.mb-0 Estos servicios no se pueden almacenar, ni llevarlos por partes, todos deben consumirse.
+          .col-12.p-0
+            figure
+              img(src='@/assets/curso/tema1/img14.svg', alt='')
     
-    .row.justify-content-end.mb-5
-      .col-lg-8.col-xl-9
-        figure
-          img(src='@/assets/curso/tema1/img14.svg', alt='')
-    
-    #t2_1.titulo-segundo.color-acento-contenido
-      h2 2.1 Finalidad de la atención al cliente
+    #t1_2.titulo-segundo.color-acento-contenido
+      h2 1.2 Finalidad de la atención al cliente
     
     .cajon.color-primario.mTop01.p-5
       .row.justify-content-evenly.align-items-center
@@ -197,7 +204,7 @@
           figure.mnTop01
             img(src='@/assets/curso/tema1/img15.svg', alt='')
         .col-lg-8
-          p.mb-0 La atención y el servicio al cliente además de ofrecer experiencias significativas a los clientes, tienen entre sus fines el fortalecimiento de la marca, el posicionamiento, y captar, retener y fidelizar clientes.
+          h5.mb-0 La atención y el servicio al cliente además de ofrecer experiencias significativas a los clientes, tienen entre sus fines el fortalecimiento de la marca, el posicionamiento, y captar, retener y fidelizar clientes.
           
 </template>
 
