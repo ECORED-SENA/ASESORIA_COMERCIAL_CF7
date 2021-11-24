@@ -20,28 +20,28 @@
       .col-12
         .row.justify-content-around.bgImg08.rounded01.m-0.p-5.minH01
           .col-md-10.col-lg-5.BG29.text-white.rounded02.p-5
-            p.my-5.mTop01 Sistema de gestión gerencial: de ahí salen las decisiones que dan forma a los momentos de verdad y la conformación de los ciclos de servicios.
+            p.my-5.mTop01 #[strong Sistema de gestión gerencial:] de ahí salen las decisiones que dan forma a los momentos de verdad y la conformación de los ciclos de servicios.
             figure.my-3.mTop01
               img.sz01(src='@/assets/curso/tema1/img05.svg', alt='')
           .col-5
       .col-12
         .row.justify-content-around.bgImg09.rounded01.m-0.p-5.minH01
           .col-md-10.col-lg-5.BG29.text-white.rounded02.p-5
-            p.my-5.mTop01 Sistema conformado por las normas y procedimientos: son las reglas para seguir en el encuentro con el cliente.
+            p.my-5.mTop01 #[strong Sistema conformado por las normas y procedimientos:] son las reglas para seguir en el encuentro con el cliente.
             figure.my-3.mTop01
               img.sz01(src='@/assets/curso/tema1/img05.svg', alt='')
           .col-5
       .col-12
         .row.justify-content-around.bgImg10.rounded01.m-0.p-5.minH01
           .col-md-10.col-lg-5.BG29.text-white.rounded02.p-5
-            p.my-5.mTop01 Sistema de infraestructura técnica: los equipos que la empresa necesita para poder operar en la atención con el cliente.
+            p.my-5.mTop01 #[strong Sistema de infraestructura técnica:] los equipos que la empresa necesita para poder operar en la atención con el cliente.
             figure.my-3.mTop01
               img.sz01(src='@/assets/curso/tema1/img05.svg', alt='')
           .col-5
       .col-12
         .row.justify-content-around.bgImg11.rounded01.m-0.p-5.minH01
           .col-md-10.col-lg-5.BG29.text-white.rounded02.p-5
-            p.my-5.mTop01 Sistema de interacción social: todo el componente humano alrededor del encuentro con el cliente.
+            p.my-5.mTop01 #[strong Sistema de interacción social:] todo el componente humano alrededor del encuentro con el cliente.
             figure.my-3.mTop01
               img.sz01(src='@/assets/curso/tema1/img05.svg', alt='')
           .col-5

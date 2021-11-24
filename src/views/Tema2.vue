@@ -12,9 +12,9 @@
       .col-lg-7.mb-4.mb-lg-0
         p La fidelización se debe entender cómo una acción de la empresa para lograr conseguir relaciones con los clientes que generen acciones redituables y continuadas con la empresa a lo largo del tiempo.
         .cajon-b.color-acento-contenido.p-3
-          p Por parte de la empresa para construir relaciones con los clientes se debe montar una estrategia conducente a que los proveedores, los clientes, distribuidores, comerciantes y públicos interesados mantengan intercambios de interés, precios y de calidad a lo largo del tiempo en la cadena de valor.
+          p #[strong Por parte de la empresa] para construir relaciones con los clientes se debe montar una estrategia conducente a que los proveedores, los clientes, distribuidores, comerciantes y públicos interesados mantengan intercambios de interés, precios y de calidad a lo largo del tiempo en la cadena de valor.
         .cajon-b.color-primario.p-3
-          p Por parte del vendedor, él debe estar en sintonía con los requerimientos de la empresa, ocupándose de resolver los problemas y las situaciones que se le presenten al cliente, puesto que esto representa valor económico y crecimiento personal para el vendedor.
+          p #[strong Por parte del vendedor], él debe estar en sintonía con los requerimientos de la empresa, ocupándose de resolver los problemas y las situaciones que se le presenten al cliente, puesto que esto representa valor económico y crecimiento personal para el vendedor.
       .col-8.col-lg-4
         figure
           img(src='@/assets/curso/tema2/img01.svg', alt='')
@@ -25,7 +25,7 @@
           figure.mnTop01
             img(src='@/assets/curso/tema2/img02.svg', alt='')
         .col-lg-8
-          p.mb-0 En la actualidad existen herramientas que contribuyen al mejoramiento de las relaciones con el cliente, lo que se denomina gestión de las relaciones, esta estrategia combina la tecnología de la información con la cultura organizacional, en la cual el principal objetivo es mantener excelentes relaciones y satisfacer las necesidades de los clientes.
+          p.mb-0 En la actualidad existen herramientas que contribuyen al mejoramiento de las relaciones con el cliente, lo que se denomina #[strong gestión de las relaciones], esta estrategia combina la tecnología de la información con la cultura organizacional, en la cual el principal objetivo es mantener excelentes relaciones y satisfacer las necesidades de los clientes.
     
     h3 Protocolo de atención en la relación con el cliente
 
@@ -66,7 +66,7 @@
         li.mb-2
           i.fas.fa-check
           p.mb-0 Para cada cargo detallar sus funciones, responsabilidades y su línea de comunicación.
-        li
+        li.mb-4
           i.fas.fa-check
           p.mb-0 Contener las instrucciones según las etapas del encuentro con el cliente.
         li.mb-0

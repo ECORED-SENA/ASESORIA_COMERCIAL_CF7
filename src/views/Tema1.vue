@@ -141,16 +141,16 @@
         p.mb-0 El solo deseo de atender bien a la persona no es suficiente, la empresa debe contar de manera organizada para hacer efectiva las PQR que realicen los clientes.
       
       .tarjeta.color-acento-botones.bg-white.p-3(x="39.7%" y="71%" numero="3")
-        p.mb-0 El trato personalizado de frente al cliente y enfocado en sus necesidades deja gratas experiencias, también puede realizarse utilizando la omnicanalidad dando respuestas inmediatas.
+        p.mb-0 El vendedor debe ser proactivo, adelantarse a situaciones para dar solución antes que el cliente lo detecte., por ejemplo, si un producto que se vendió tiene fallas, recogerlo cuanto antes.
 
       .tarjeta.color-acento-botones.bg-white.p-3(x="53.2%" y="71%" numero="4")
-        p.mb-0 El vendedor debe ser proactivo, adelantarse a situaciones para dar solución antes que el cliente lo detecte., por ejemplo, si un producto que se vendió tiene fallas, recogerlo cuanto antes.
+        p.mb-0 El servicio ayuda a la empresa y el vendedor a tener una relación duradera y rentable.
       
       .tarjeta.color-acento-botones.bg-white.p-3(x="69.2%" y="71%" numero="5")
-        p.mb-0 Problema resuelto a satisfacción, es cliente que vuelve a comprar.
+        p.mb-0 El trato personalizado de frente al cliente y enfocado en sus necesidades deja gratas experiencias, también puede realizarse utilizando la omnicanalidad dando respuestas inmediatas.
 
       .tarjeta.color-acento-botones.bg-white.p-3(x="86.5%" y="71%" numero="6")
-        p.mb-0 El servicio ayuda a la empresa y el vendedor a tener una relación duradera y rentable.
+        p.mb-0 Problema resuelto a satisfacción, es cliente que vuelve a comprar.
   
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.roundedEnd
 
