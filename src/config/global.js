@@ -345,7 +345,7 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: 'Carlo Julián Ramírez Benítez',
+        nombre: 'Carlos Julián Ramírez Benítez',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
